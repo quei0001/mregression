@@ -12,7 +12,7 @@ except Exception as e:
     st.stop()
 
 # Streamlit UI
-st.title("💼 Salary Predictor")
+st.title("Salary Predictor")
 st.write("Enter your details to estimate your salary:")
 
 experience = st.number_input("Years of Experience", min_value=0, max_value=50, value=5)
@@ -22,6 +22,6 @@ age = st.number_input("Age", min_value=18, max_value=70, value=30)
 if st.button("Predict Salary"):
     try:
         salary = predict_salary(model, experience, education_level, age)
-        st.success(f"💰 Estimated Salary: **${salary:,.2f}**")
+        st.success(f"Estimated Salary: **${salary:,.2f}**")
     except Exception as e:
         st.error(f"Prediction failed: {e}")
