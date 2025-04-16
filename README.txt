@@ -41,8 +41,8 @@ multiple_regression_project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/multiple-regression-app.git
-cd multiple-regression-app
+git clone 
+https://mregression-vakaecd4gu87byjq8w2epn.streamlit.app/%20%20Multiple%20Regression
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 
 ## Author
 
-Developed by [Your Name]  
+Developed by Eduardo Queija de Siqueira  
 
 
 ---
